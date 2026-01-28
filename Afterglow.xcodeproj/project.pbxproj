@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FD0750E8A59E008DDFC2F3 /* AfterglowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC9520776B7F16102C2C32 /* AfterglowApp.swift */; };
+		319E6B0E642DF3A80DD74BE4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467140FDE59EE678C324DD67 /* AppState.swift */; };
+		170BCA2B74AB93D68742FCF5 /* NightShiftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441D7762AFF1445EE7EE4919 /* NightShiftController.swift */; };
+		148813D9E053672B0A87AC10 /* TrueToneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BF41C036B55691499B36A8 /* TrueToneController.swift */; };
+		F89215592BD660DCF22CEC44 /* RuleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCFB78CD0ABE10469587372 /* RuleManager.swift */; };
+		DE5E79B7D0BFF572EB2EBABC /* BrowserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7151977518C4EC17B0A285 /* BrowserManager.swift */; };
+		46B00E4E5CB6A2526DBD32CC /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB565B935A1B0DCA8DF00B /* ShortcutManager.swift */; };
+		01374A0EEE7E64E4087EF8E9 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB169BE9F26564E58DC79A3 /* MenuBarView.swift */; };
+		B020E6EF95417C3B5BF162D6 /* ColorTemperatureSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4C2390CC4B7627257A8967 /* ColorTemperatureSlider.swift */; };
+		9C2FCEFE0F6CA6F4C9AC071F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C515A70A9A9EE01C6CCB1 /* SettingsView.swift */; };
+		0A1C2A4BE0BCF1EE3CAB2284 /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D64126A5A66349C78224AC /* GeneralSettingsView.swift */; };
+		879B0F3ADB42572A11396731 /* ShortcutsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7136D882D2417C240E670F8A /* ShortcutsSettingsView.swift */; };
+		57D8BC33B68F0C855714D15A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270792E17EB99359FD1D534C /* AboutView.swift */; };
+		A66DEEA24DF23552CB3D2E50 /* AppRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE805997E8B94DCB73754993 /* AppRule.swift */; };
+		D160581FA8AF1C9274120B3D /* BrowserRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C68FA53012D0A5376CE31E3 /* BrowserRule.swift */; };
+		77486B4D08D3FCDF7F624356 /* NightShiftSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF48E69F1D859283474E107 /* NightShiftSchedule.swift */; };
+		4657009DAE5B4C6CBDF8D949 /* DisableTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D2759728F55151D284853 /* DisableTimer.swift */; };
+		BE317CC7831C70A1F479355A /* Notification+Afterglow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDC72C92D970809026373E5 /* Notification+Afterglow.swift */; };
+		630079499D908838C6A12464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB8953AE57039F8C975994A /* Assets.xcassets */; };
+		76AD784FB1E3C014CDFA4EDF /* AfterglowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE70BFBE66F86CE8AF105AC /* AfterglowTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63BC9520776B7F16102C2C32 /* AfterglowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AfterglowApp.swift"; sourceTree = "<group>"; };
+		467140FDE59EE678C324DD67 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppState.swift"; sourceTree = "<group>"; };
+		441D7762AFF1445EE7EE4919 /* NightShiftController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NightShiftController.swift"; sourceTree = "<group>"; };
+		C0BF41C036B55691499B36A8 /* TrueToneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrueToneController.swift"; sourceTree = "<group>"; };
+		9DCFB78CD0ABE10469587372 /* RuleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RuleManager.swift"; sourceTree = "<group>"; };
+		1F7151977518C4EC17B0A285 /* BrowserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrowserManager.swift"; sourceTree = "<group>"; };
+		F1CB565B935A1B0DCA8DF00B /* ShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShortcutManager.swift"; sourceTree = "<group>"; };
+		7EB169BE9F26564E58DC79A3 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenuBarView.swift"; sourceTree = "<group>"; };
+		BE4C2390CC4B7627257A8967 /* ColorTemperatureSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorTemperatureSlider.swift"; sourceTree = "<group>"; };
+		BA5C515A70A9A9EE01C6CCB1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		B0D64126A5A66349C78224AC /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeneralSettingsView.swift"; sourceTree = "<group>"; };
+		7136D882D2417C240E670F8A /* ShortcutsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShortcutsSettingsView.swift"; sourceTree = "<group>"; };
+		270792E17EB99359FD1D534C /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AboutView.swift"; sourceTree = "<group>"; };
+		DE805997E8B94DCB73754993 /* AppRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppRule.swift"; sourceTree = "<group>"; };
+		3C68FA53012D0A5376CE31E3 /* BrowserRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrowserRule.swift"; sourceTree = "<group>"; };
+		EDF48E69F1D859283474E107 /* NightShiftSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NightShiftSchedule.swift"; sourceTree = "<group>"; };
+		CF4D2759728F55151D284853 /* DisableTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DisableTimer.swift"; sourceTree = "<group>"; };
+		5FDC72C92D970809026373E5 /* Notification+Afterglow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Afterglow.swift"; sourceTree = "<group>"; };
+		C7501257D6112195FF2EA548 /* CBBlueLightClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBBlueLightClient.h"; sourceTree = "<group>"; };
+		DA060C13806D4339029B63EC /* CBTrueToneClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBTrueToneClient.h"; sourceTree = "<group>"; };
+		47669B3E48445C4943CB2055 /* BrightnessSystemClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrightnessSystemClient.h"; sourceTree = "<group>"; };
+		90BD76C0C3381A9030BB438F /* Afterglow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Afterglow-Bridging-Header.h"; sourceTree = "<group>"; };
+		FCB8953AE57039F8C975994A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37A2D07D928BC5B946E119F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5482E0D56B0F234B61D53975 /* Afterglow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Afterglow.entitlements; sourceTree = "<group>"; };
+		71CCD365E3A654DA84DBA191 /* Afterglow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Afterglow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		441C877AA3006B78CDA325F7 /* AfterglowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfterglowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE70BFBE66F86CE8AF105AC /* AfterglowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AfterglowTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BC9136C2E1B992EF374A2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D3FC6DB5D0827F168A73277 = {
+			isa = PBXGroup;
+			children = (
+				E04D7014477376DC93E250EF /* Afterglow */,
+				24DFAD7E3B56719996E6F208 /* AfterglowTests */,
+				1BADDC1D73C1A20F347483E1 /* Products */
+			);
+			sourceTree = "<group>";
+		};
+		1BADDC1D73C1A20F347483E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71CCD365E3A654DA84DBA191 /* Afterglow.app */,
+				441C877AA3006B78CDA325F7 /* AfterglowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E04D7014477376DC93E250EF /* Afterglow */ = {
+			isa = PBXGroup;
+			children = (
+				90BD76C0C3381A9030BB438F /* Afterglow-Bridging-Header.h */,
+				CE882751F8B3EE4485706ED4 /* App */,
+				68B6898BC36750D5EB7D99BE /* Core */,
+				9CECDDFA5EF2AE0232F90708 /* Views */,
+				E7651EE138212D3A5C27ABA0 /* Models */,
+				26DB2F12AC14316753D03498 /* Extensions */,
+				5D5C30FE2D37BF9200573C74 /* PrivateAPI */,
+				DC01BA9E07F323C9FCA89BF3 /* Resources */,
+				37A2D07D928BC5B946E119F3 /* Info.plist */
+			);
+			path = Afterglow;
+			sourceTree = "<group>";
+		};
+		CE882751F8B3EE4485706ED4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				63BC9520776B7F16102C2C32 /* AfterglowApp.swift */,
+				467140FDE59EE678C324DD67 /* AppState.swift */
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		68B6898BC36750D5EB7D99BE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				441D7762AFF1445EE7EE4919 /* NightShiftController.swift */,
+				C0BF41C036B55691499B36A8 /* TrueToneController.swift */,
+				9DCFB78CD0ABE10469587372 /* RuleManager.swift */,
+				1F7151977518C4EC17B0A285 /* BrowserManager.swift */,
+				F1CB565B935A1B0DCA8DF00B /* ShortcutManager.swift */
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9CECDDFA5EF2AE0232F90708 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EB169BE9F26564E58DC79A3 /* MenuBarView.swift */,
+				BE4C2390CC4B7627257A8967 /* ColorTemperatureSlider.swift */,
+				07B5D8B29BF70F60E8A88E82 /* Settings */
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07B5D8B29BF70F60E8A88E82 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BA5C515A70A9A9EE01C6CCB1 /* SettingsView.swift */,
+				B0D64126A5A66349C78224AC /* GeneralSettingsView.swift */,
+				7136D882D2417C240E670F8A /* ShortcutsSettingsView.swift */,
+				270792E17EB99359FD1D534C /* AboutView.swift */
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E7651EE138212D3A5C27ABA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE805997E8B94DCB73754993 /* AppRule.swift */,
+				3C68FA53012D0A5376CE31E3 /* BrowserRule.swift */,
+				EDF48E69F1D859283474E107 /* NightShiftSchedule.swift */,
+				CF4D2759728F55151D284853 /* DisableTimer.swift */
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26DB2F12AC14316753D03498 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5FDC72C92D970809026373E5 /* Notification+Afterglow.swift */
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5D5C30FE2D37BF9200573C74 /* PrivateAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C7501257D6112195FF2EA548 /* CBBlueLightClient.h */,
+				DA060C13806D4339029B63EC /* CBTrueToneClient.h */,
+				47669B3E48445C4943CB2055 /* BrightnessSystemClient.h */
+			);
+			path = PrivateAPI;
+			sourceTree = "<group>";
+		};
+		DC01BA9E07F323C9FCA89BF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCB8953AE57039F8C975994A /* Assets.xcassets */,
+				5482E0D56B0F234B61D53975 /* Afterglow.entitlements */
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		24DFAD7E3B56719996E6F208 /* AfterglowTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE70BFBE66F86CE8AF105AC /* AfterglowTests.swift */
+			);
+			path = AfterglowTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* Afterglow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4555FF564CDA3863A0A5B59 /* Build configuration list for PBXNativeTarget "Afterglow" */;
+			buildPhases = (
+				F680599402C0D80E245DE801 /* Sources */,
+				6BC9136C2E1B992EF374A2EA /* Frameworks */,
+				781C774F390DF12CD292A30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Afterglow;
+			productName = Afterglow;
+			productReference = 71CCD365E3A654DA84DBA191 /* Afterglow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFEE19449146DDDB4DD78AD1 /* AfterglowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D708131E4FA8291BF32298F8 /* Build configuration list for PBXNativeTarget "AfterglowTests" */;
+			buildPhases = (
+				889885923DD4EB5770CCACFE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AfterglowTests;
+			productName = AfterglowTests;
+			productReference = 441C877AA3006B78CDA325F7 /* AfterglowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = 229AFD403D5F98A92FDE08FA /* Build configuration list for PBXProject "Afterglow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D3FC6DB5D0827F168A73277;
+			productRefGroup = 1BADDC1D73C1A20F347483E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* Afterglow */,
+				DFEE19449146DDDB4DD78AD1 /* AfterglowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		781C774F390DF12CD292A30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630079499D908838C6A12464 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F680599402C0D80E245DE801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FD0750E8A59E008DDFC2F3 /* AfterglowApp.swift in Sources */,
+				319E6B0E642DF3A80DD74BE4 /* AppState.swift in Sources */,
+				170BCA2B74AB93D68742FCF5 /* NightShiftController.swift in Sources */,
+				148813D9E053672B0A87AC10 /* TrueToneController.swift in Sources */,
+				F89215592BD660DCF22CEC44 /* RuleManager.swift in Sources */,
+				DE5E79B7D0BFF572EB2EBABC /* BrowserManager.swift in Sources */,
+				46B00E4E5CB6A2526DBD32CC /* ShortcutManager.swift in Sources */,
+				01374A0EEE7E64E4087EF8E9 /* MenuBarView.swift in Sources */,
+				B020E6EF95417C3B5BF162D6 /* ColorTemperatureSlider.swift in Sources */,
+				9C2FCEFE0F6CA6F4C9AC071F /* SettingsView.swift in Sources */,
+				0A1C2A4BE0BCF1EE3CAB2284 /* GeneralSettingsView.swift in Sources */,
+				879B0F3ADB42572A11396731 /* ShortcutsSettingsView.swift in Sources */,
+				57D8BC33B68F0C855714D15A /* AboutView.swift in Sources */,
+				A66DEEA24DF23552CB3D2E50 /* AppRule.swift in Sources */,
+				D160581FA8AF1C9274120B3D /* BrowserRule.swift in Sources */,
+				77486B4D08D3FCDF7F624356 /* NightShiftSchedule.swift in Sources */,
+				4657009DAE5B4C6CBDF8D949 /* DisableTimer.swift in Sources */,
+				BE317CC7831C70A1F479355A /* Notification+Afterglow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889885923DD4EB5770CCACFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AD784FB1E3C014CDFA4EDF /* AfterglowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1EA2DAE22E748F9AEA0FB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		019D489715EA2049FB007B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A7688EC0FBCAEE3AC10FE473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Afterglow/Resources/Afterglow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Afterglow/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-type.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-F/System/Library/PrivateFrameworks -framework CoreBrightness";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afterglow.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Afterglow/Afterglow-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B97B4C92D6B4C9AEC89C8D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Afterglow/Resources/Afterglow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Afterglow/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-type.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-F/System/Library/PrivateFrameworks -framework CoreBrightness";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afterglow.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Afterglow/Afterglow-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7FDA8CC86725E50782AE3BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.afterglow.AfterglowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Afterglow.app/Contents/MacOS/Afterglow";
+			};
+			name = Debug;
+		};
+		FE240A0956DF9C71675D7EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.afterglow.AfterglowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Afterglow.app/Contents/MacOS/Afterglow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229AFD403D5F98A92FDE08FA /* Build configuration list for PBXProject "Afterglow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EA2DAE22E748F9AEA0FB11 /* Debug */,
+				019D489715EA2049FB007B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4555FF564CDA3863A0A5B59 /* Build configuration list for PBXNativeTarget "Afterglow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7688EC0FBCAEE3AC10FE473 /* Debug */,
+				B97B4C92D6B4C9AEC89C8D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D708131E4FA8291BF32298F8 /* Build configuration list for PBXNativeTarget "AfterglowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FDA8CC86725E50782AE3BC5 /* Debug */,
+				FE240A0956DF9C71675D7EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

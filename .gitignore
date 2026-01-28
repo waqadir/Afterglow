@@ -1,0 +1,24 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserdata
+*.xcworkspace
+!Afterglow.xcworkspace
+*.xcscmblueprint
+*.moved-aside
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# OS
+.DS_Store
+*.swp
+*~
+
+# AppCode
+.idea/
+
+# Secrets
+*.env
