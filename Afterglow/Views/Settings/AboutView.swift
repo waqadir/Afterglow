@@ -38,7 +38,7 @@ struct AboutView: View {
             Divider()
 
             Link("View on GitHub",
-                 destination: URL(string: "https://github.com/waqarqadir/Afterglow")!)
+                 destination: URL(string: "https://github.com/waqadir/Afterglow")!)
                 .font(.caption)
         }
         .padding(32)

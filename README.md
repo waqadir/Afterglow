@@ -34,7 +34,7 @@ Afterglow was built to expand the capabilities of Night Shift on macOS. It puts 
 
 ### Download
 
-Download the latest release from the [Releases](https://github.com/waqarqadir/Afterglow/releases) page.
+Download the latest release from the [Releases](https://github.com/waqadir/Afterglow/releases) page.
 
 1. Open the `.dmg` file
 2. Drag **Afterglow** to your Applications folder
@@ -43,7 +43,7 @@ Download the latest release from the [Releases](https://github.com/waqarqadir/Af
 ### Build from Source
 
 ```bash
-git clone https://github.com/waqarqadir/Afterglow.git
+git clone https://github.com/waqadir/Afterglow.git
 cd Afterglow
 open Afterglow.xcodeproj
 ```
